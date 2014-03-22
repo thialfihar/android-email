@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
      Copyright (C) 2011 Google Inc.
      Licensed to The Android Open Source Project.
 
@@ -79,7 +79,7 @@
     <string name="menu_show_original" msgid="4227060689700765828">"Вярнуць аўтаматычнае змяненне памераў"</string>
     <string name="menu_folder_options" msgid="8897520487430647932">"Налады тэчак"</string>
     <string name="menu_settings" msgid="6007027046949837282">"Налады"</string>
-    <string name="menu_search" msgid="5297197523031943248">"Пошук"</string>
+    <string name="menu_search2" msgid="5297197523031943248">"Пошук"</string>
     <string name="mark_important" msgid="6904096897104265870">"Пазначыць як важнае"</string>
     <string name="mark_not_important" msgid="4550967327747977068">"Пазначыць як няважнае"</string>
     <string name="add_cc_label" msgid="504861315425773180">"Дадаць копію/схаваную копiю"</string>
@@ -383,8 +383,8 @@
     <item quantity="one" msgid="7530191630810420066">"Гэта паведамленне (<xliff:g id="COUNT">%1$d</xliff:g>) будзе выдалена назаўсёды."</item>
     <item quantity="other" msgid="2182899395748020953">"Гэтыя паведамленні (<xliff:g id="COUNT">%1$d</xliff:g>) будуць выдалены назаўсёды."</item>
   </plurals>
-    <string name="drawer_open" msgid="6074646853178471940">"Адкрыць скрыню навігацыі"</string>
-    <string name="drawer_close" msgid="2764774620737876943">"Закрыць скрыню навігацыі"</string>
+    <string name="drawer_open2" msgid="6074646853178471940">"Адкрыць скрыню навігацыі"</string>
+    <string name="drawer_close2" msgid="2764774620737876943">"Закрыць скрыню навігацыі"</string>
     <string name="conversation_photo_welcome_text" msgid="4274875219447670662">"Націсніце на малюнак адпраўніка малюнак, каб выбраць размову."</string>
     <!-- no translation found for long_press_to_select_tip (9205666839837250150) -->
     <skip />

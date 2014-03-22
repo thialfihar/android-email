@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
      Copyright (C) 2011 Google Inc.
      Licensed to The Android Open Source Project.
 
@@ -79,7 +79,7 @@
     <string name="menu_show_original" msgid="4227060689700765828">"स्वत: पूर्वाकारमा परिवर्तित"</string>
     <string name="menu_folder_options" msgid="8897520487430647932">"फोल्डर सेटिंग्स"</string>
     <string name="menu_settings" msgid="6007027046949837282">"सेटिङहरु"</string>
-    <string name="menu_search" msgid="5297197523031943248">"खोज्नुहोस्"</string>
+    <string name="menu_search2" msgid="5297197523031943248">"खोज्नुहोस्"</string>
     <string name="mark_important" msgid="6904096897104265870">"महत्वपूर्ण भनि चिनो लगाउनुहोस्"</string>
     <string name="mark_not_important" msgid="4550967327747977068">"महत्त्वहीनको रूपमा चिन्ह लगाउनुहोस्"</string>
     <string name="add_cc_label" msgid="504861315425773180">"Cc/Bcc थप्नुहोस्"</string>
@@ -387,8 +387,8 @@
     <item quantity="one" msgid="7530191630810420066">"<xliff:g id="COUNT">%1$d</xliff:g> सन्देश स्थायी रूपमा मेटाईनेछ।"</item>
     <item quantity="other" msgid="2182899395748020953">"<xliff:g id="COUNT">%1$d</xliff:g> सन्देशहरू स्थायी रूपमा मेटाईनेछन्।"</item>
   </plurals>
-    <string name="drawer_open" msgid="6074646853178471940">"नेभिगेसन ड्रअर खोल्नुहोस्"</string>
-    <string name="drawer_close" msgid="2764774620737876943">"नेभिगेसन ड्रअर बन्द गर्नुहोस्"</string>
+    <string name="drawer_open2" msgid="6074646853178471940">"नेभिगेसन ड्रअर खोल्नुहोस्"</string>
+    <string name="drawer_close2" msgid="2764774620737876943">"नेभिगेसन ड्रअर बन्द गर्नुहोस्"</string>
     <string name="conversation_photo_welcome_text" msgid="4274875219447670662">"त्यस  कुराकानीलाई छान्नको लागि एक प्रेषकको चित्रलाई छुनुहोस्।"</string>
     <string name="long_press_to_select_tip" msgid="9205666839837250150">"एउटा कुराकानी छान्न छुनुहोस् र समाउनुहोस्, त्यसपछि थप चयन गर्न छुनुहोस्।"</string>
     <string name="folder_icon_desc" msgid="1500547397347480618">"फोल्डर आइकन"</string>

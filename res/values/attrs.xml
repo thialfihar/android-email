@@ -17,7 +17,7 @@
 -->
 
 <resources>
-    <add-resource name="RecipientEditTextViewStyle" type="style" />
+    <!--<add-resource name="RecipientEditTextViewStyle" type="style" />
     <add-resource name="ComposeEditTextView" type="style" />
     <add-resource name="LargeComposeAreaBody" type="style" />
     <add-resource name="RecipientComposeFieldSpacer" type="style" />
@@ -26,6 +26,8 @@
     <add-resource name="ComposeFieldLayout" type="style" />
     <add-resource name="RecipientComposeFieldLayout" type="style" />
     <add-resource name="ComposeSubjectStyle" type="style" />
+    <add-resource name="PhotoViewTheme" type="style" />
+-->
     <declare-styleable name="FolderItemViewDrawableState">
         <attr name="state_drag_mode" format="boolean" />
     </declare-styleable>

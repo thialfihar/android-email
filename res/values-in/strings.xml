@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
      Copyright (C) 2011 Google Inc.
      Licensed to The Android Open Source Project.
 
@@ -78,7 +78,7 @@
     <string name="menu_show_original" msgid="4227060689700765828">"Balikkan ubah ukuran otomatis"</string>
     <string name="menu_folder_options" msgid="8897520487430647932">"Setelan folder"</string>
     <string name="menu_settings" msgid="6007027046949837282">"Setelan"</string>
-    <string name="menu_search" msgid="5297197523031943248">"Telusuri"</string>
+    <string name="menu_search2" msgid="5297197523031943248">"Telusuri"</string>
     <string name="mark_important" msgid="6904096897104265870">"Tandai sebagai penting"</string>
     <string name="mark_not_important" msgid="4550967327747977068">"Tandai sebagai tidak penting"</string>
     <string name="add_cc_label" msgid="504861315425773180">"Tambahkan Cc/Bcc"</string>
@@ -374,8 +374,8 @@
     <item quantity="one" msgid="7530191630810420066">"<xliff:g id="COUNT">%1$d</xliff:g> pesan akan dihapus secara permanen."</item>
     <item quantity="other" msgid="2182899395748020953">"<xliff:g id="COUNT">%1$d</xliff:g> pesan akan dihapus secara permanen."</item>
   </plurals>
-    <string name="drawer_open" msgid="6074646853178471940">"Buka laci navigasi"</string>
-    <string name="drawer_close" msgid="2764774620737876943">"Tutup laci navigasi"</string>
+    <string name="drawer_open2" msgid="6074646853178471940">"Buka laci navigasi"</string>
+    <string name="drawer_close2" msgid="2764774620737876943">"Tutup laci navigasi"</string>
     <string name="conversation_photo_welcome_text" msgid="4274875219447670662">"Sentuh gambar pengirim untuk memilih percakapan tersebut."</string>
     <string name="long_press_to_select_tip" msgid="9205666839837250150">"Sentuh terus untuk memilih satu percakapan, kemudian sentuh untuk memilih lainnya."</string>
     <string name="folder_icon_desc" msgid="1500547397347480618">"Ikon folder"</string>

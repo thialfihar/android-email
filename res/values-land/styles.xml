@@ -41,4 +41,7 @@
     <style name="AccountSpinnerAnchorTextPrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textSize">14dp</item>
     </style>
+
+    <style name="PhotoViewTheme">
+    </style>
 </resources>

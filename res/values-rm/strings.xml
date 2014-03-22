@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
      Copyright (C) 2011 Google Inc.
      Licensed to The Android Open Source Project.
 
@@ -563,9 +563,9 @@
     <skip />
     <!-- no translation found for empty_folder_dialog_message:one (7530191630810420066) -->
     <!-- no translation found for empty_folder_dialog_message:other (2182899395748020953) -->
-    <!-- no translation found for drawer_open (6074646853178471940) -->
+    <!-- no translation found for drawer_open2 (6074646853178471940) -->
     <skip />
-    <!-- no translation found for drawer_close (2764774620737876943) -->
+    <!-- no translation found for drawer_close2 (2764774620737876943) -->
     <skip />
     <!-- no translation found for conversation_photo_welcome_text (4274875219447670662) -->
     <skip />

@@ -28,7 +28,7 @@
     <string name="conversation_content_provider" translatable="false">Conversation Content Provider</string>
     <string name="account_cache_provider" translatable="false">Account Cache Provider</string>
 
-    <string name="app_name" translatable="false">Unified Email</string>
+    <string name="app_name2" translatable="false">Unified Email</string>
 
     <!-- Compose -->
     <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
@@ -168,7 +168,7 @@
     <!-- Menu item: launch the Settings activity -->
     <string name="menu_settings">Settings</string>
     <!-- Menu item: search through the Gmail inbox -->
-    <string name="menu_search">Search</string>
+    <string name="menu_search2">Search</string>
 
     <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
     <string name="mark_important">Mark important</string>
@@ -853,8 +853,8 @@
     </plurals>
 
     <!-- Strings used for accessibility for the items that toggles the drawer action  -->
-    <string name="drawer_open">Open navigation drawer</string>
-    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open2">Open navigation drawer</string>
+    <string name="drawer_close2">Close navigation drawer</string>
 
     <string name="conversation_photo_welcome_text">Touch a sender image to select that conversation.</string>
 
