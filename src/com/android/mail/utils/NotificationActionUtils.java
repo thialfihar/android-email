@@ -34,7 +34,7 @@ import android.widget.RemoteViews;
 
 import com.android.mail.MailIntentService;
 import com.android.mail.NotificationActionIntentService;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.compose.ComposeActivity;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.Conversation;

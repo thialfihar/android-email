@@ -17,7 +17,7 @@
 
 package com.android.mail.analytics;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 public class AnalyticsUtils {
 

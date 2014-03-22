@@ -21,6 +21,8 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnShowListener;
 import android.os.Handler;
 
+import org.thialfihar.android.apg.R;
+
 /**
  * MinTimeProgressDialog implements a ProgressDialog that waits MIN_DELAY ms to
  * be dismissed before showing. Once visible, the dialog will be visible for at

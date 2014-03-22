@@ -43,7 +43,7 @@ import android.widget.SearchView.OnSuggestionListener;
 import android.widget.TextView;
 
 import com.android.mail.ConversationListContext;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.preferences.MailPrefs;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.AccountObserver;

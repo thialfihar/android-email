@@ -43,7 +43,7 @@ import android.util.SparseArray;
 
 import com.android.mail.EmailAddress;
 import com.android.mail.MailIntentService;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.analytics.Analytics;
 import com.android.mail.analytics.AnalyticsUtils;
 import com.android.mail.browse.MessageCursor;

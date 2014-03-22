@@ -58,7 +58,7 @@ import android.view.Window;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.browse.ConversationCursor;
 import com.android.mail.compose.ComposeActivity;
 import com.android.mail.perf.SimpleTimer;

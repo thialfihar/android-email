@@ -37,7 +37,7 @@ import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.browse.SendersView;
 import com.android.mail.compose.ComposeActivity;
 import com.android.mail.preferences.MailPrefs;

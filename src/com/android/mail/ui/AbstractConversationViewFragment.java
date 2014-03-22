@@ -30,7 +30,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.analytics.Analytics;
 import com.android.mail.browse.ConversationAccountController;
 import com.android.mail.browse.ConversationMessage;

@@ -44,7 +44,7 @@ import android.webkit.WebView;
 import android.widget.Button;
 
 import com.android.mail.FormattedDateBuilder;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.browse.ConversationContainer;
 import com.android.mail.browse.ConversationContainer.OverlayPosition;
 import com.android.mail.browse.ConversationMessage;

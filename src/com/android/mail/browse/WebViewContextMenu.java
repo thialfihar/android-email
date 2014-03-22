@@ -34,7 +34,7 @@ import android.view.View;
 import android.view.View.OnCreateContextMenuListener;
 import android.webkit.WebView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

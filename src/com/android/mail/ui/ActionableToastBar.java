@@ -27,7 +27,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 /**
  * A custom {@link View} that exposes an action to the user.

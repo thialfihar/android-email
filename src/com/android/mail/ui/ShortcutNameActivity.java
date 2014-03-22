@@ -30,7 +30,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 /**
  * This activity prompts the user for a name for the shortcut to their folder

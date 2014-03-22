@@ -23,7 +23,7 @@ import android.text.Layout;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 /**
  * A TextView that knows the widest that any of its containing

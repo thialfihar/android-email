@@ -29,7 +29,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 import java.util.ArrayList;
 

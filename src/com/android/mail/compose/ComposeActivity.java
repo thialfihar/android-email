@@ -72,7 +72,7 @@ import com.android.common.Rfc822Validator;
 import com.android.common.contacts.DataUsageStatUpdater;
 import com.android.ex.chips.RecipientEditTextView;
 import com.android.mail.MailIntentService;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.analytics.Analytics;
 import com.android.mail.browse.MessageHeaderView;
 import com.android.mail.compose.AttachmentsView.AttachmentAddedOrDeletedListener;

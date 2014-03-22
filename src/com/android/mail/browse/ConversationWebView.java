@@ -26,7 +26,7 @@ import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.ScaleGestureDetector.OnScaleGestureListener;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.utils.LogTag;
 import com.android.mail.utils.LogUtils;
 

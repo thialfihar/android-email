@@ -25,7 +25,7 @@ import android.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.Address;
 

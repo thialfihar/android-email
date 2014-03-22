@@ -29,7 +29,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.UIProvider.SyncStatus;
 

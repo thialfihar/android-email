@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.ui.AttachmentTile;
 
 public class ComposeAttachmentTile extends AttachmentTile implements AttachmentDeletionInterface {

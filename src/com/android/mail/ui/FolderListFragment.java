@@ -33,7 +33,7 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.adapter.DrawerItem;
 import com.android.mail.analytics.Analytics;
 import com.android.mail.content.ObjectCursor;

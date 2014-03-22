@@ -17,7 +17,7 @@
 
 package com.android.mail.adapter;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.Folder;
 import com.android.mail.ui.AccountItemView;

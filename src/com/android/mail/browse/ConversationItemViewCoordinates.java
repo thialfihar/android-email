@@ -30,9 +30,9 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.mail.R;
-import com.android.mail.R.dimen;
-import com.android.mail.R.id;
+import org.thialfihar.android.apg.R;
+import org.thialfihar.android.apg.R.dimen;
+import org.thialfihar.android.apg.R.id;
 import com.android.mail.ui.ViewMode;
 import com.android.mail.utils.Utils;
 import com.google.common.base.Objects;

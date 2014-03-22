@@ -26,7 +26,7 @@ import android.os.AsyncTask;
 import android.view.View;
 import android.widget.AdapterView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.Conversation;
 import com.android.mail.providers.Folder;

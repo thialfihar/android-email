@@ -15,7 +15,7 @@
  */
 package com.android.mail.ui;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 import android.widget.ImageView;
 import android.widget.TextView;

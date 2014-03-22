@@ -33,7 +33,7 @@ import android.widget.TextView;
 import android.widget.ImageView.ScaleType;
 
 import com.android.ex.photo.util.ImageUtils;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Attachment;
 import com.android.mail.utils.LogTag;
 import com.android.mail.utils.AttachmentUtils;

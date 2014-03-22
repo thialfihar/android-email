@@ -26,7 +26,7 @@ import android.widget.SearchView;
 
 import com.android.mail.ConversationListContext;
 import com.android.mail.utils.Utils;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 /**
  * This class is used to show a custom actionbar for the search activity. This doesn't have any

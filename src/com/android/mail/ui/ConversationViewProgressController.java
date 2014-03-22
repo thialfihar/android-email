@@ -25,7 +25,7 @@ import android.content.res.Resources;
 import android.os.Handler;
 import android.view.View;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.utils.Utils;
 
 /**

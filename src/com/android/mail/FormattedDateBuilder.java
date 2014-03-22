@@ -21,6 +21,8 @@ import android.content.res.Resources;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 
+import org.thialfihar.android.apg.R;
+
 import java.util.Formatter;
 
 /**

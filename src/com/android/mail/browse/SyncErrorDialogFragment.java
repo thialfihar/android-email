@@ -25,7 +25,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 /**
  * Implements a {@link DialogFragment} that uses an internal {@link AlertDialog}

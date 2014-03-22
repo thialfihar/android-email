@@ -9,7 +9,7 @@ import android.graphics.drawable.Drawable;
 
 import com.android.bitmap.BitmapCache;
 import com.android.bitmap.DecodeAggregator;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.browse.ConversationItemViewCoordinates;
 
 

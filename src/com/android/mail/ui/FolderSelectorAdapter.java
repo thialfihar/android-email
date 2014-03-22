@@ -17,7 +17,7 @@
 
 package com.android.mail.ui;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Folder;
 import com.android.mail.providers.UIProvider.FolderCapabilities;
 import com.google.common.base.Objects;

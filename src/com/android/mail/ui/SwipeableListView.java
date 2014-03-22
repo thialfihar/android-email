@@ -30,7 +30,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.ListView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.analytics.Analytics;
 import com.android.mail.analytics.AnalyticsUtils;
 import com.android.mail.browse.ConversationCursor;

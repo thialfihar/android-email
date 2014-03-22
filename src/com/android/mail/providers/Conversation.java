@@ -26,7 +26,7 @@ import android.os.Parcelable;
 import android.provider.BaseColumns;
 import android.text.TextUtils;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.browse.ConversationCursor;
 import com.android.mail.content.CursorCreator;
 import com.android.mail.providers.UIProvider.ConversationColumns;

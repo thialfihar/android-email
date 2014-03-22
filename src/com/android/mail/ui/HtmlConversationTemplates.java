@@ -20,7 +20,7 @@ package com.android.mail.ui;
 import android.content.Context;
 import android.content.res.Resources.NotFoundException;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.utils.LogTag;
 import com.android.mail.utils.LogUtils;
 import com.android.mail.utils.Utils;

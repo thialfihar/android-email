@@ -31,7 +31,7 @@ import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnCreateContextMenuListener;
 import android.webkit.WebView;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 
 /**
  * <p>

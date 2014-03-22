@@ -21,7 +21,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.providers.Account;
 import com.android.mail.providers.Conversation;
 import com.android.mail.providers.Folder;

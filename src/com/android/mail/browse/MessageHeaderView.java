@@ -48,7 +48,7 @@ import android.widget.Toast;
 
 import com.android.mail.ContactInfo;
 import com.android.mail.ContactInfoSource;
-import com.android.mail.R;
+import org.thialfihar.android.apg.R;
 import com.android.mail.browse.ConversationViewAdapter.BorderItem;
 import com.android.mail.browse.ConversationViewAdapter.MessageHeaderItem;
 import com.android.mail.compose.ComposeActivity;

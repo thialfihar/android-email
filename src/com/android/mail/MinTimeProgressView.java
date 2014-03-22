@@ -21,6 +21,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ProgressBar;
 
+import org.thialfihar.android.apg.R;
+
 /**
  * MinTimeProgressView implements a ProgressBar that waits MIN_DELAY ms to be
  * dismissed before showing. Once visible, the progress bar will be visible for
