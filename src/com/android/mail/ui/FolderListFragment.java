@@ -20,6 +20,7 @@ package com.android.mail.ui;
 import android.app.Activity;
 import android.app.ListFragment;
 import android.app.LoaderManager;
+import android.content.Intent;
 import android.content.Loader;
 import android.net.Uri;
 import android.os.Bundle;
@@ -33,7 +34,6 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import org.thialfihar.android.apg.R;
 import com.android.mail.adapter.DrawerItem;
 import com.android.mail.analytics.Analytics;
 import com.android.mail.content.ObjectCursor;
@@ -51,6 +51,9 @@ import com.android.mail.providers.UIProvider.FolderType;
 import com.android.mail.utils.FolderUri;
 import com.android.mail.utils.LogTag;
 import com.android.mail.utils.LogUtils;
+
+import org.thialfihar.android.apg.R;
+import org.thialfihar.android.apg.ui.KeyListActivity;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -365,6 +368,21 @@ public class FolderListFragment extends ListFragment implements
             mSelectedFolderUri = mParentFolder.folderUri;
             // No selected folder type required for hierarchical lists.
         }
+
+        final View apgButton = rootView.findViewById(R.id.apg_button);
+        apgButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                getActivity().finish();
+                getActivity().overridePendingTransition(0, 0);
+
+                Intent intent = new Intent(getActivity(), KeyListActivity.class);
+                getActivity().startActivity(intent);
+
+                // disable animation of activity start
+                getActivity().overridePendingTransition(0, 0);
+            }
+        });
 
         return rootView;
     }

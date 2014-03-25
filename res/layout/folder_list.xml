@@ -16,14 +16,58 @@
      limitations under the License.
 -->
 
-<com.android.mail.ui.FolderListLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.mail.ui.FolderListLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ListView
-        android:id="@android:id/list"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:drawSelectorOnTop="false"
-        android:fadingEdge="none"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/apg_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/drawer_item_icon"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="24sp"
+                android:layout_marginLeft="8dp"
+                fontawesometext:fa_icon="fa-key"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#c93"
+                />
+
+            <TextView
+                android:id="@+id/drawer_item_text"
+                android:text="APG"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="#ccc"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/drawer_item_icon" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"/>
+    </LinearLayout>
 </com.android.mail.ui.FolderListLayout>
