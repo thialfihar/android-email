@@ -28,6 +28,7 @@ import android.support.v4.text.BidiFormatter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -53,6 +54,7 @@ import com.android.mail.utils.LogTag;
 import com.android.mail.utils.LogUtils;
 
 import org.thialfihar.android.apg.R;
+import org.thialfihar.android.apg.ui.DrawerActivity;
 import org.thialfihar.android.apg.ui.KeyListActivity;
 
 import java.util.ArrayList;
@@ -369,18 +371,29 @@ public class FolderListFragment extends ListFragment implements
             // No selected folder type required for hierarchical lists.
         }
 
-        final View apgButton = rootView.findViewById(R.id.apg_button);
-        apgButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                getActivity().finish();
-                getActivity().overridePendingTransition(0, 0);
+        final ListView apgList = (ListView) rootView.findViewById(R.id.apg_list);
+        apgList.setAdapter(new DrawerActivity.NavigationDrawerAdapter(getActivity(),
+            R.layout.drawer_list_item,
+            new DrawerActivity.NavItem[] {
+                new DrawerActivity.NavItem("fa-user", getString(R.string.nav_contacts),
+                    KeyListActivity.class),
+            }));
 
-                Intent intent = new Intent(getActivity(), KeyListActivity.class);
-                getActivity().startActivity(intent);
+
+        apgList.setOnItemClickListener(new ListView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                DrawerActivity.NavItem item =
+                    (DrawerActivity.NavItem) apgList.getAdapter().getItem(position);
+                Activity activity = getActivity();
+                activity.finish();
+                //activity.overridePendingTransition(0, 0);
+
+                Intent intent = new Intent(activity, item.class_);
+                activity.startActivity(intent);
 
                 // disable animation of activity start
-                getActivity().overridePendingTransition(0, 0);
+                //activity.overridePendingTransition(0, 0);
             }
         });
 
